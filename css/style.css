@@ -202,3 +202,50 @@ header .menu-top li.active-menu a {
 .content .plus-search i.fa.fa-external-link {
     margin-right: 10px;
 }
+
+.content .widget-item{
+    display: none;
+}
+
+.content .tab-content .project-item img {
+    width: 100%;
+    padding: 8px 6px;
+    border-bottom: 1px solid #ededed;
+}
+
+.content .project-item .item-details span {
+    /* display: block; */
+    padding: 5px;
+    /* line-height: 15px; */
+}
+
+.content .project-item {
+    margin:  15px 0;
+    border:  1px solid #ededed;
+}
+
+.content .project-item h4 {
+    text-align:  center;
+    color:  #09c;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ededed;
+    padding:  8px 6px;
+}
+
+.content .project-item .item-details  i {
+    font-size: 16px;
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.content .project-item .item-details p {
+    line-height: 30px;
+    overflow:  hidden;
+    white-space:  nowrap;
+    text-overflow:  ellipsis;
+}
+
+p.item-infobasic {
+    display: inline-block;
+}
