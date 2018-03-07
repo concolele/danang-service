@@ -673,7 +673,7 @@ header .setting a:focus, a:hover {
     padding-left: 10px;
 }
 
-.widget-key-content {
+.content .culture .widget-key-content {
     display:  inline-block;
     width: calc(100% - 120px);
     margin-left: 10px;
@@ -770,4 +770,133 @@ header .setting a:focus, a:hover {
 
 .content .cusine-item-right .widget-cusine-content p {
     color:  #888;
+}
+
+.box-location {
+    background: #ededed;
+    padding:  20px 0;
+    margin-top: 20px;
+}
+
+.box-location h3 {
+    margin-bottom: 20px;
+}
+
+.box-location .text-locations strong {
+    padding-right: 50px;
+    border-right: 1px dashed #333;
+    float:  left;
+    display:  inline-block;
+    width:  150px;
+    height:  30px;
+    font-size:  14px;
+}
+
+.box-location .text-locations a {
+    float:  left;
+    margin-left: 10px;
+    padding-right: 10px;
+    color:  #111;
+    border-right: 1px solid #ccc;
+    font-size:  13px;
+}
+
+.box-location .text-locations {
+    margin-bottom: 10px;
+}
+
+footer {
+    /* background: #044da2; */
+}
+
+.footer-logo img {
+    width: 100%;
+    /* height: 60px; */
+}
+
+.footer-logo {
+    display:  inline-block;
+}
+
+.footer-socical {
+    display:  block;
+    margin:  10px 0;
+}
+
+.footer-socical li {
+    display:  inline-block;
+    margin-right: 5px;
+}
+
+.content-footer {
+    padding:  20px 0;
+    background: #044da2; */
+}
+
+.footer-socical i {
+    background: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: #044da2;
+    line-height: 35px;
+    text-align:  center;
+}
+
+.footer-socical li a:hover i {
+    background-color: #266ba3;
+    color: #fff;
+}
+
+.footer-info p {
+    color:  #fff;
+    margin-bottom: 5px;
+}
+
+.footer-info i {
+    margin-right: 5px;
+}
+
+footer .footer-item a:before {
+    content: "\f101";
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    font-family: FontAwesome;
+}
+
+footer .footer-item .footer-item {
+    position: relative;
+}
+
+footer .footer-item ul {
+    position:  relative;
+}
+
+footer .footer-item a {
+    color:  #fff;
+}
+
+footer .footer-item li {
+    margin:  10px 0;
+    margin-left: 20px;
+}
+
+footer .footer-item h3 {
+    color:  #fff;
+}
+
+footer .bot-footer {
+    text-align:  center;
+    background:  #266ba4;
+    padding: 10px;
+    color:  #fff;
+}
+
+.footer-deco {
+    height: 35px;
+    width: 100%;
+    background-repeat:  repeat-x;
+    background-image: url(../img/footer_deco.png);
 }
