@@ -900,3 +900,24 @@ footer .bot-footer {
     background-repeat:  repeat-x;
     background-image: url(../img/footer_deco.png);
 }
+
+@media (max-width: 1201px) and (min-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    header .menu-top li{
+        margin-left: 8px;
+    }
+    header .logo img{
+        width: 100%;
+    }
+    .item-search {
+    text-align:  center;
+    }
+    .content .search-property select, .content .plus-search input.inSearch{
+        margin-top: 10px;
+    }
+    .content .main-search{
+        margin-bottom: 0px;
+    }
+}
