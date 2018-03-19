@@ -23,7 +23,7 @@ header {
 }
 
 img {
-    width:  35px;
+    /* width:  35px; */
     height:  100%;
 }
 
@@ -710,21 +710,22 @@ header .setting a:focus, a:hover {
 
 .content .cusine-item-left {
     display:  inline-block;
+    margin-bottom: 15px;
 }
 
 .content .cusine-item-left .widget-cusine-img img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .content .cusine-item-left .widget-cusine-content {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .content .cusine-item-left .widget-cusine-content h4 {
     color: #044da2;
     font-size:  16px;
     line-height: 30px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .content .cusine-item-left .widget-cusine-content p {
@@ -920,4 +921,120 @@ footer .bot-footer {
     .content .main-search{
         margin-bottom: 0px;
     }
+}
+
+@media (max-width: 430px){
+
+}
+
+@media (max-width: 949px){
+    header{
+        display: none;
+    }
+    .header-mb{
+        display: block !important;
+    }
+    .btn-default:hover {border-radius:  0;background:  #fff;}
+
+    .menu-mb {
+        position:  absolute;
+        top: 15px;
+    }
+
+    .btn-default:focus {
+        background:  #fff;
+        border-radius:  0;
+    }
+
+    .btn-default:active {
+        background:  #fff;
+        border-radius:  0;
+    }
+
+    .content .main-search{
+        margin-bottom: 0px;
+    }
+
+    .content .search-property select, .content .plus-search input.inSearch{
+        margin-top: 10px;
+    }
+}
+
+span.glyphicon.glyphicon-menu-hamburger {
+    font-size: 23px;
+    /* font-weight: bold; */
+}
+
+.btn-default {
+    border:  none;
+    color: #044da2;
+}
+
+.header-mb img {
+    /* width:  100%; */
+    max-height: 50px;
+}
+
+.header-mb .logo {
+    text-align:  center;
+}
+
+.header-mb {
+    /*display:  inline-block;*/
+    width: 100%;
+    padding:  10px 15px;
+    position:  relative;
+}
+
+.modal-dialog {
+    margin:  0;
+    width:  270px;
+    height:  100%;
+}
+
+.modal-content {
+    border-radius:  0;
+    height:  100%;
+    overflow-y:  auto;
+    overflow-x:  hidden;
+    border:  0;
+    -webkit-box-shadow: none;
+    box-shadow:  none;
+}
+
+.close-modal {
+    display:  inline-block;
+    position:  absolute;
+    right: -40px;
+    background:  #fff;
+}
+
+button.close {
+    font-size: 40px;
+    opacity: 1;
+    line-height: 1;
+    padding: 0 10px;
+}
+
+.modal .modal-dialog
+ li {
+    border-bottom: 1px solid #ededed;
+}
+
+.modal .modal-dialog li a {
+    color: #333;
+    padding:  12px;
+    display:  inline-block;
+}
+
+.header-mb{
+    display: none;
+}
+
+ul.sub-menu-mb {
+    background: #ededed;
+}
+
+.sub-menu-mb li span {
+    margin-right: 5px;
 }
