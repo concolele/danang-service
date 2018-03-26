@@ -953,6 +953,12 @@ footer .bot-footer {
     }
 }
 
+@media (min-width: 1200px){
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
 @media (max-width: 949px){
     header{
         display: none;
